@@ -30,6 +30,28 @@ header p { color: rgba(255, 255, 255, 0.9); font-size: 1.1rem; }
 main { max-width: 800px; margin: 0 auto; padding: 40px 20px; background: rgba(255, 255, 255, 0.95); border-radius: 12px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); margin-top: 40px; margin-bottom: 40px; }
 main h2 { margin-bottom: 16px; }
 
+.portfolio {
+    margin-top: 40px;
+}
+
+.portfolio h2 {
+    margin-bottom: 24px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 24px;
